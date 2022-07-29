@@ -20,10 +20,18 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow: hidden scroll;
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+    // scrollbar-width: none;
   }
 
   button {
     margin-top: auto;
   }
 }
+
+
+// root::-webkit-scrollbar {
+//   width: 0.005em;
+// }
